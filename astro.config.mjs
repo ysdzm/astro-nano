@@ -4,6 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://ysdzm.github.io/dokudamibox.net-2/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
