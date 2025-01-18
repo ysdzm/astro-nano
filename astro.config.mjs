@@ -5,5 +5,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://dokudamibox.net",
+  base: "/dokudamibox.net-2/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
