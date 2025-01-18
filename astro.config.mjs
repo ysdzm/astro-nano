@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://dokudamibox.net",
+  site: "https://ysdzm.github.io/dokudamibox.net-2/",
   base: "/dokudamibox.net-2/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
